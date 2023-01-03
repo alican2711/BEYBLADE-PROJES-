@@ -1,0 +1,22 @@
+public class dranza extends beyblade{
+    private String kutsalcanavar;
+    public dranza (String beybladeci,int dönüş_hızı,int saldırıgücü,String kutsalcanavar){
+        super(beybladeci,dönüş_hızı,saldırıgücü);
+        this.kutsalcanavar = kutsalcanavar ;
+    }
+
+    @Override
+    public void bilgilerigöster() {
+        super.bilgilerigöster();
+        System.out.println("kutsal canavar adı : " + kutsalcanavar);
+    }
+
+    @Override
+    public void kutsalcanavarortayaçıkar() {
+
+        System.out.println(getBeybladeci()+"" + kutsalcanavar +" ı ortaya çıkarıyor..." );
+        System.out.println(getBeybladeci()+" ın saldırısı : Alev kılıcıııı!!!!!!!");
+
+
+    }
+}

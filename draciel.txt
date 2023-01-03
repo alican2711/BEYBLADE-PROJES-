@@ -1,0 +1,20 @@
+public class draciel extends beyblade {
+    private String kutsalcanavar;
+    public draciel (String beybladeci,int dönüş_hızı ,int saldırıgücü,String kutsalcanavar){
+        super(beybladeci,dönüş_hızı,saldırıgücü);
+        this.kutsalcanavar = kutsalcanavar;
+
+    }
+
+    @Override
+    public void bilgilerigöster() {
+        super.bilgilerigöster();
+    }
+
+    @Override
+    public void kutsalcanavarortayaçıkar() {
+        System.out.println(getBeybladeci()+""+kutsalcanavar+ "ı ortaya çıkıyor...");
+        System.out.println(getBeybladeci()+ " ın savunması : KALE SAVUNMASI !!!!!!!!");
+
+    }
+}

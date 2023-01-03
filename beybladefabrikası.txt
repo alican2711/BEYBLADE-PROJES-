@@ -1,0 +1,19 @@
+public class BeybladeFabrikası {
+    public beyblade beybladeüret(String beyblade_türü){
+        if (beyblade_türü.equals("Dragon")){
+            return new dragon("takao",800,400,"Mavi ejderha","Kutsal Canavarla Konuşma");
+
+        } else if (beyblade_türü.equals("Dranza")) {
+            return  new dranza("Kai",600,400,"Kırmızı Anka Kuşu");
+        } else if (beyblade_türü.equals("Dryga")) {
+            return new drayga("Rei",800,250,"Beyaz Kaplan");
+
+        } else if (beyblade_türü.equals("Draciel")) {
+            return new draciel("Max",400,1000,"Kara Kaplumbağa");
+
+
+        }else {
+            return null;
+        }
+    }
+}

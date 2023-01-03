@@ -1,0 +1,38 @@
+public class beyblade {
+    private String beybladeci ;
+    private int dönüş_hızı;
+    private int saldırıgücü;
+
+    public beyblade (String beybladeci,int dönüş_hızı, int saldırıgücü){
+        this.beybladeci = beybladeci ;
+        this.dönüş_hızı = dönüş_hızı;
+        this.saldırıgücü =saldırıgücü;
+    }public void setBeybladeci(String beybladeci){
+        this.beybladeci = beybladeci ;
+
+    }public String getBeybladeci(){
+        return beybladeci;
+
+    }public void setDönüş_hızı(int dönüş_hızı){
+        this.dönüş_hızı = dönüş_hızı;
+    }
+
+    public int getDönüş_hızı() {
+        return dönüş_hızı;
+    }public void setSaldırıgücü(String Saldırıgücü){
+        this.saldırıgücü =saldırıgücü ;
+    }public int getSaldırıgücü(){
+        return saldırıgücü;
+    }public void saldır(){
+        System.out.println(getBeybladeci() + ""+ saldırıgücü + " ve " + dönüş_hızı + "ile saldııryor..");
+
+    }public void kutsalcanavarortayaçıkar(){
+        System.out.println("bu bebladenin kutsal canavarı bulunmuyor..");
+    }public void bilgilerigöster(){
+
+        System.out.println("Beybladeci ismi :" + beybladeci);
+        System.out.println("Saldırı gücü :" + saldırıgücü);
+        System.out.println("Dönüş hızı :" + dönüş_hızı);
+    }
+
+}

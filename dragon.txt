@@ -1,0 +1,20 @@
+public class dragon extends  beyblade{
+    private  String kutsalcanavar;
+    private  String gizliyetenek;
+    public dragon (String beybladeci,int dönüş_hızı,int saldırıgücü,String kutsalcanavar,String gizliyetenek){
+        super(beybladeci,dönüş_hızı,saldırıgücü);
+        this.kutsalcanavar=kutsalcanavar;
+        this.gizliyetenek =gizliyetenek;
+    }
+
+    @Override
+    public void bilgilerigöster() {
+        super.bilgilerigöster();
+    }
+
+    @Override
+    public void kutsalcanavarortayaçıkar() {
+        System.out.println(getBeybladeci()+ ""+kutsalcanavar +"ı ortaya çıkıyor...");
+        System.out.println(getBeybladeci()+"ın saldırısı : HAYALET KASIRGASII!!!!");
+    }
+}
